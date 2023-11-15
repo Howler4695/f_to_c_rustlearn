@@ -49,7 +49,7 @@ fn main() {
             }
         };
 
-        let converted_value: f64 = (&input_value + &conversion_add_subtract) * &conversion_coefficient;
+        let converted_value: f64 = (input_value + conversion_add_subtract) * conversion_coefficient;
 
         println!("Converted Value: {:.1}°{}\n-------------------", converted_value, conversion_type);
     }
